@@ -1,17 +1,24 @@
 package com.papanaga.ilie.java;
 
+import java.util.Scanner;
+
 public class EcuatieGradul1 {
     float terminA;
     float terminB;
     float terminC=0;
 
     public void read() {
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a float value for termin A: ");
+        terminA = scanner.nextFloat();
+        System.out.print("Enter a float value for termin B: ");
+        terminB = scanner.nextFloat();
+        System.out.print("Enter a float value for termin C: ");
+        terminC = scanner.nextFloat();
+        scanner.close();
     }
 
     public void execute() {
-        System.out.println("terminA = " + terminA);
-        System.out.println("terminB = " + terminB);
 
         float raspuns;
         if (terminA == 0) {
