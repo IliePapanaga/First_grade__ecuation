@@ -1,6 +1,8 @@
+import com.papanaga.ilie.java.EcuatieGradul1;
+
 public class firstgrade {
     public static void main(String[] args) {
-        int a = 0; // Assign the value of 'a' here
+    /*    int a = 0; // Assign the value of 'a' here
         int b = 1; // Assign the value of 'b' here
 
         if (a == 0) {
@@ -12,6 +14,10 @@ public class firstgrade {
         } else {
             int x = -b / a;
             System.out.println("Solutia e: x = " + x);
-        }
+        }*/
+
+        EcuatieGradul1 ecuatie = new EcuatieGradul1();
+        ecuatie.read();
+        ecuatie.execute();
     }
 }
