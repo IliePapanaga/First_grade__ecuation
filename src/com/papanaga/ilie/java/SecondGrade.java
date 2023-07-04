@@ -20,7 +20,6 @@ public class SecondGrade {
             double c = scanner.nextDouble();
 
             double delta = b * b - 4 * a * c;
-
             if (delta > 0) {
                 double x1 = (-b + Math.sqrt(delta)) / (2 * a);
                 double x2 = (-b - Math.sqrt(delta)) / (2 * a);
