@@ -1,6 +1,7 @@
 import com.papanaga.ilie.java.EcuatieGradul1;
+import com.papanaga.ilie.java.SecondGrade;
 
-public class firstgrade {
+public class Main {
     public static void main(String[] args) {
     /*    int a = 0; // Assign the value of 'a' here
         int b = 1; // Assign the value of 'b' here
@@ -16,8 +17,12 @@ public class firstgrade {
             System.out.println("Solutia e: x = " + x);
         }*/
 
-        EcuatieGradul1 ecuatie = new EcuatieGradul1();
+    /*    EcuatieGradul1 ecuatie = new EcuatieGradul1();
         ecuatie.read();
-        ecuatie.execute();
+        ecuatie.execute();*/
+
+        SecondGrade second = new SecondGrade();
+        second.read();
+        second.execute();
     }
 }
