@@ -19,5 +19,9 @@ public class firstgrade {
         EcuatieGradul1 ecuatie = new EcuatieGradul1();
         ecuatie.read();
         ecuatie.execute();
+
+        EcuatieGradul1 ecuatie1 = new EcuatieGradul1(23,34,-2);
+     //   ecuatie.read();
+      //    ecuatie1.execute();
     }
 }

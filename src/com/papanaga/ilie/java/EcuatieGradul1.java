@@ -18,6 +18,15 @@ public class EcuatieGradul1 {
         scanner.close();
     }
 
+    public EcuatieGradul1() {
+    }
+
+    public EcuatieGradul1(float terminA, float terminB, float terminC) {
+        this.terminA = terminA;
+        this.terminB = terminB;
+        this.terminC = terminC;
+    }
+
     public void execute() {
 
         float raspuns;
